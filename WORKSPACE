@@ -1,0 +1,1 @@
+workspace(name = "gmock-global")
