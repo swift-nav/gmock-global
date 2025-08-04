@@ -5,6 +5,10 @@
 # For more details, please check https://github.com/bazelbuild/bazel/issues/18958
 ###############################################################################
 
-module(name = "gmock-global", version = "1.0.2.swiftnav", compatibility_level = 1)
+module(
+    name = "gmock-global",
+    version = "1.0.2.1.swiftnav",
+    compatibility_level = 1,
+)
 
 bazel_dep(name = "rules_cc", version = "0.0.9")
